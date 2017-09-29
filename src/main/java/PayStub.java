@@ -7,8 +7,8 @@ public class PayStub {
     private int checkNum;
     private float curRegEarnings;
     private float curOTEarnings;
-    private float ytdHourly;
-    private float ytdOT;
+    private float ytdRegEarnings;
+    private float ytdOTEarnings;
     private float ytdFedTax;
     private float curFedTax;
     private float curSocSec;
@@ -64,20 +64,20 @@ public class PayStub {
         this.curOTEarnings = curOTEarnings;
     }
 
-    public float getYtdHourly() {
-        return ytdHourly;
+    public float getYtdRegEarnings() {
+        return ytdRegEarnings;
     }
 
-    public void setYtdHourly(float ytdHourly) {
-        this.ytdHourly = ytdHourly;
+    public void setYtdRegEarnings(float ytdRegEarnings) {
+        this.ytdRegEarnings = ytdRegEarnings;
     }
 
-    public float getYtdOT() {
-        return ytdOT;
+    public float getYtdOTEarnings() {
+        return ytdOTEarnings;
     }
 
-    public void setYtdOT(float ytdOT) {
-        this.ytdOT = ytdOT;
+    public void setYtdOTEarnings(float ytdOTEarnings) {
+        this.ytdOTEarnings = ytdOTEarnings;
     }
 
     public float getYtdFedTax() {
